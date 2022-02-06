@@ -10,6 +10,8 @@ $(document).ready(function(){
     //Owl Carousel
     $('.owl-carousel').owlCarousel({
         center: false,
+        nav: false,
+        dots: false,
         items: 4,
         loop: false,
         margin:10,
