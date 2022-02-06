@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/home.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/js/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/js/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" />
+    <link href="/js/hamburgers/dist/hamburgers.min.css" rel="stylesheet">
+    <title>Sushimania - Home</title>
+</head>
+<body>
+    <header>        
+        <nav id="nav">
+            <div id="logo">
+                <img src="src/logo.png" alt="Logo" width="50">
+            </div>       
+            <ul id="navItems">                    
+                <li><a href="#">Cardapio</a></li>
+                <li><a href="#">Localização</a></li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>  
+            <button class="hamburger hamburger--spring" type="button">
+                <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                </span>
+            </button>          
+        </nav>
+        <nav id="navMobile">  
+            <ul id="navItemsMobile">
+                <li><a href="#">Cardapio</a></li>
+                <li><a href="#">Localização</a></li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>  
+        </nav>
+    </header>
+    <main>
+        <section id="banner">
+            <button>Pedir Delivery</button>
+        </section>
+        
+        <section id="best_choices">
+            <h1>Mais pedidos no Delivery</h1>
+
+            <div class="cards_food">                
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 customPrevBtn " fill="none" viewBox="0 0 24 24" stroke="#A61717">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z" />
+                </svg>
+
+                <div class ="owl-carousel"> 
+
+                    <div class="card_food">
+                        <div>
+                            <img class="card_img" src="src/1.png" alt="Produto">
+                        </div>
+                       
+                        <h3 class="card_title">Sashimi</h3>
+                        <p class="card_description">Salmão, atum, peixe banco</p>
+                    </div> 
+
+                    <div class="card_food">
+                        <div>
+                            <img class="card_img" src="src/2.png" alt="Produto">
+                        </div>                        
+                        <h3 class="card_title">Sashimi</h3>
+                        <p class="card_description">Salmão, atum, peixe banco</p>
+                    </div> 
+
+                    <div class="card_food">
+                        <div>
+                            <img class="card_img" src="src/3.png" alt="Produto">
+                        </div>                        
+                        <h3 class="card_title">Sashimi</h3>
+                        <p class="card_description">Salmão, atum, peixe banco</p>
+                    </div> 
+
+                    <div class="card_food">
+                        <div>
+                            <img class="card_img" src="src/4.png" alt="Produto">
+                        </div>
+                        
+                        <h3 class="card_title">Sashimi</h3>
+                        <p class="card_description">Salmão, atum, peixe banco</p>
+                    </div> 
+
+                </div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 customNextBtn" fill="none" viewBox="0 0 24 24" stroke="#A61717">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+            </div>
+
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

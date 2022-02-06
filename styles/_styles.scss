@@ -1,0 +1,38 @@
+$red: #A61717;
+$orange: #C24330;
+$white: #f2f2f2;
+$gray: #C4C4C4;
+$black: #000000;
+
+@mixin title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 2rem 0;
+}
+
+@mixin buttonRed{  
+    font-family: 'Poppins', sans-serif;
+    background-color: $red;
+    color: $white;
+    padding: .5rem 2rem;
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    margin: 1rem 0;
+    cursor: pointer;
+
+    &:hover{
+        background-color: lighten($red, 20%);
+    }
+
+}
+
+/* 
+
+Breakpoints Devices
+
+Min 768px = Notebook
+Min 1444px = Desktop
+
+*/
