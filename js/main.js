@@ -7,21 +7,36 @@ $(document).ready(function(){
       $('nav#navMobile').toggle('dflex')
     });    
 
+    //Modal
+    var modal = document.getElementById("myModal");
+    var btn = document.getElementById("btnModal");
+    
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+    }
+    
+
     //Owl Carousel
     $('.owl-carousel').owlCarousel({
         center: false,
         nav: false,
         dots: false,
         items: 4,
-        loop: false,
-        margin:10,
-        autoWidth: true,        
+        loop: false,        
         responsive:{
             0:{
-                items:2
+                items:1,
+                center: true,
             },
             600:{
-                items:3
+                items:3,
+                
             },
             1000:{
                 items:5

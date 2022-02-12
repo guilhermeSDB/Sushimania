@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/home.css">
-
+    <link rel="stylesheet" href="js/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="./js/hamburgers/dist/hamburgers.min.css" rel="stylesheet">
+    <link href="./js/hamburgers/dist/hamburgers.css" rel="stylesheet">
     <title>Sushimania - Home</title>
 </head>
 <body>
@@ -41,7 +41,7 @@
     </header>
     <main>
         <section id="banner">
-            <button>Pedir Delivery</button>
+            <button id="btnModal">Pedir Delivery</button>
         </section>
         
         <section id="best_choices">
@@ -96,9 +96,28 @@
             </div>
 
         </section>
+        <footer>
+            <p>
+                Made by <a href="https://github.com/guilhermeSDB?tab=repositories" target="_blank">Guilherme Barros</a>
+            </p>
+            
+        </footer>
     </main>
+
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <h4>Baixe nosso app e ganhe</h4>
+        <button>10% de desconto</button>
+        <img src="src/availableON.png" alt="Disponivel na Play store e APP Store">
+    </div>
+  
+</div>
+
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="js/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="js/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
