@@ -23,6 +23,7 @@ $(document).ready(function(){
 
     //Owl Carousel
     $('.owl-carousel').owlCarousel({
+        autoWidth: true,
         nav: false,
         dots: false,
         items: 4,

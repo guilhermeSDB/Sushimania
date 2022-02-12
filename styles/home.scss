@@ -120,10 +120,6 @@ body {
                     width: 60%;
                     display: flex;
                     justify-content: center;
-                    .owl-item {                          
-
-                        @media screen and (min-width: 768px) { width: 190px !important; }
-                    }
                     
                     div.card_food{
                         background-color: $white;
@@ -182,8 +178,11 @@ body {
     footer{
         color: $black;
         text-align: center;
-        position: relative;
-        padding: 2rem;
+        overflow: hidden;
+        position: absolute;
+        bottom: 1rem;
+        width: 100%;
+        margin-top: auto;
 
         a{
             text-decoration: none;
