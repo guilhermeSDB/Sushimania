@@ -20,19 +20,18 @@ $(document).ready(function(){
           modal.style.display = "none";
         }
     }
-    
 
     //Owl Carousel
     $('.owl-carousel').owlCarousel({
-        center: false,
         nav: false,
         dots: false,
         items: 4,
-        loop: false,        
+        loop: false,             
         responsive:{
             0:{
                 items:1,
                 center: true,
+                autoWidth: true,  
             },
             600:{
                 items:3,
