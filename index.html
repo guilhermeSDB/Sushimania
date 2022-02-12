@@ -5,24 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Fav icon -->
     <link rel="apple-touch-icon" sizes="180x180" href="src/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="src/favicon_io//favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="src/favicon_io//favicon-16x16.png">
     <link rel="manifest" href="src/favicon_io//site.webmanifest">
 
+    <!-- Animations Imports -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
-
+    <!-- My Styles CSS -->
     <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="js/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link href="./js/hamburgers/dist/hamburgers.css" rel="stylesheet">
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="./js/hamburgers/dist/hamburgers.css" rel="stylesheet">
+    
     <title>Sushimania - Home</title>
 </head>
 <body>
     <header>        
-        <nav id="nav">
+        <nav id="nav" class="animate__animated animate__slideInDown">
             <div id="logo">
                 <img src="src/logo.png" alt="Logo" width="50">
             </div>       
@@ -48,11 +57,11 @@
         </nav>
     </header>
     <main>
-        <section id="banner">
+        <section id="banner" class="animate__animated animate__fadeInLeft">
             <button id="btnModal">Pedir Delivery</button>
         </section>
         
-        <section id="best_choices">
+        <section id="best_choices" class="animate__animated animate__slideInDown">
             <h1>Mais pedidos no Delivery</h1>
 
             <div class="cards_food">                
@@ -60,7 +69,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z" />
                 </svg>
 
-                <div class ="owl-carousel"> 
+                <div class="owl-carousel"> 
 
                     <div class="card_food">
                         <div>

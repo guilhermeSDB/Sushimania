@@ -80,19 +80,23 @@ body {
             background-image: url('../src/background.jpg');
             background-repeat: no-repeat;
             background-position: center center;
-            background-size: cover;
+            background-size: 100%;
             height: 35vh;
             display: flex;
             justify-content: center;
             align-items: flex-end;
+            transition: background-size 3s ease-in;
 
             @media screen and (min-width: 768px) { height: 45vh; }
             
+            &:hover{
+                background-size: 120%; 
+            }
 
             button{
                 @include buttonRed;
                 margin: 3rem 0;
-                transition: 0.5s;
+                transition: 1s;
             }
         }
 
