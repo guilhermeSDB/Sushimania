@@ -182,11 +182,13 @@ body {
     footer{
         color: $black;
         text-align: center;
-        overflow: hidden;
-        position: absolute;
+        overflow: hidden;        
         bottom: 1rem;
         width: 100%;
-        margin-top: auto;
+        margin-top: 2rem;
+        position: relative;
+
+        @media screen and (min-width: 768px) {  position: absolute; }
 
         a{
             text-decoration: none;
