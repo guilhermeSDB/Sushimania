@@ -71,6 +71,8 @@ body header nav#nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  z-index: 9999;
 }
 @media screen and (min-width: 768px) {
   body header nav#nav {
@@ -126,6 +128,7 @@ body header nav#navMobile ul li {
 }
 body header nav#navMobile ul li a {
   text-decoration: none;
+  color: #000000;
 }
 body header nav#navMobile .dflex {
   display: block;
